@@ -21,6 +21,7 @@
     "test": "mocha --ui=tdd ./out/tests/all.test.js",
     "benchmark": "node benchmark/benchmark.js",
     "inspect": "node out/tests/inspect.js",
+    "inspect-terse": "node out/tests/inspect-terse.js",
     "tmconvert": "node scripts/tmconvert.js",
     "version": "npm run compile && npm run test",
     "postversion": "git push && git push --tags",
